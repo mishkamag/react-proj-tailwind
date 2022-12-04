@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
+
 import geocamp from "../assets/geocamp.jpg";
 
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
@@ -15,11 +17,60 @@ const Navbar = () => {
         <div className="flex items-center">
           <img className="w-12 h-auto" src={geocamp} alt="/" />
           <ul className="hidden md:flex">
-            <li>Home</li>
-            <li>About</li>
-            <li>Support</li>
-            <li>Platform</li>
-            <li>Pricing</li>
+            <li>
+              <Link
+                className="cursor-pointer"
+                to="home"
+                smooth={true}
+                duration={500}
+              >
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link
+                className="cursor-pointer"
+                to="about"
+                smooth={true}
+                offset={-200}
+                duration={500}
+              >
+                About
+              </Link>
+            </li>
+            <li>
+              <Link
+                className="cursor-pointer"
+                to="support"
+                smooth={true}
+                offset={-50}
+                duration={500}
+              >
+                Support
+              </Link>
+            </li>
+            <li>
+              <Link
+                className="cursor-pointer"
+                to="platforms"
+                smooth={true}
+                offset={-100}
+                duration={500}
+              >
+                Platform
+              </Link>
+            </li>
+            <li>
+              <Link
+                className="cursor-pointer"
+                to="pricing"
+                smooth={true}
+                offset={-50}
+                duration={500}
+              >
+                Pricing
+              </Link>
+            </li>
           </ul>
         </div>
         <div className="hidden md:flex pr-4">
