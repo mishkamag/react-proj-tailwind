@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-proj-tailwind/static/css/main.1d3c0e02.css",
+    "main.js": "/react-proj-tailwind/static/js/main.78c38b18.js",
+    "static/media/couple.jpg": "/react-proj-tailwind/static/media/couple.8dd8d914352cab388a1f.jpg",
+    "static/media/geocamp.jpg": "/react-proj-tailwind/static/media/geocamp.384e3ed71086ac36ae38.jpg",
+    "static/media/friend.jpg": "/react-proj-tailwind/static/media/friend.e09014ab6dd3990ba9fd.jpg",
+    "index.html": "/react-proj-tailwind/index.html",
+    "main.1d3c0e02.css.map": "/react-proj-tailwind/static/css/main.1d3c0e02.css.map",
+    "main.78c38b18.js.map": "/react-proj-tailwind/static/js/main.78c38b18.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d3c0e02.css",
+    "static/js/main.78c38b18.js"
+  ]
+}
